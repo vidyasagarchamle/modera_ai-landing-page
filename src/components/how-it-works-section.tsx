@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import { Card, CardContent } from "@/components/ui/card";
-import { FileSearch, Brain, Tags, BarChart4, Code, Database, Globe } from "lucide-react";
+import { FileSearch, Brain, Tags, BarChart4, Code } from "lucide-react";
 
 export function HowItWorksSection() {
   const steps = [

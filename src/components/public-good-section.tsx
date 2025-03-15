@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import { Card, CardContent } from "@/components/ui/card";
-import { Heart, Lock, Globe, Users, Shield, Code } from "lucide-react";
+import { Heart, Lock, Globe, Shield } from "lucide-react";
 
 export function PublicGoodSection() {
   const reasons = [
@@ -76,7 +76,7 @@ export function PublicGoodSection() {
                 Modera AI as a <span className="text-primary">Public Good</span>
               </h2>
               <p className="text-lg text-muted-foreground">
-                We uphold Web3's decentralization principles while ensuring responsible content moderation.
+                We uphold Web3&apos;s decentralization principles while ensuring responsible content moderation.
                 Our approach balances protection with freedom for IPFS websites.
               </p>
             </motion.div>

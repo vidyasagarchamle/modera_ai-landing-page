@@ -2,7 +2,7 @@
 
 import { Card, CardContent } from "@/components/ui/card";
 import { motion } from "framer-motion";
-import { Shield, AlertTriangle, Link as LinkIcon, FileText, Image as ImageIcon, Check, Database, Globe } from "lucide-react";
+import { Shield, AlertTriangle, Link as LinkIcon, FileText, Image as ImageIcon, Database } from "lucide-react";
 
 export function AboutSection() {
   const features = [

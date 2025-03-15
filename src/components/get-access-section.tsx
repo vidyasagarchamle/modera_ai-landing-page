@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { ArrowRight, CheckCircle2, Clock, Shield, Users, FileText } from "lucide-react";
+import { ArrowRight, Clock, Shield, Users, FileText } from "lucide-react";
 
 export function GetAccessSection() {
   // Actual Google Form URL
