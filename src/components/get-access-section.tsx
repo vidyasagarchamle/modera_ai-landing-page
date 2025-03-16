@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { ArrowRight, Clock, Shield, Users, FileText, CheckCircle, LockKeyhole } from "lucide-react";
+import { ArrowRight, Clock, Shield, Users, FileText, LockKeyhole } from "lucide-react";
 
 export function GetAccessSection() {
   // Actual Google Form URL
@@ -166,7 +166,7 @@ export function GetAccessSection() {
                         <div className="absolute left-0 top-8 bottom-0 w-0.5 bg-primary/30"></div>
                         <div>
                           <h4 className="text-lg font-medium">Verification</h4>
-                          <p className="text-muted-foreground mt-2">Our team reviews your project's legitimacy and use case to ensure alignment with our ethical guidelines.</p>
+                          <p className="text-muted-foreground mt-2">Our team reviews your project&apos;s legitimacy and use case to ensure alignment with our ethical guidelines.</p>
                         </div>
                       </div>
                       
