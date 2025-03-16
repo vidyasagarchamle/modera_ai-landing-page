@@ -164,12 +164,11 @@
 }
 
 .hover-glow {
-  transition: box-shadow 0.2s ease-out, transform 0.2s ease-out;
+  transition: box-shadow 0.2s ease-out;
 }
 
 .hover-glow:hover {
-  box-shadow: 0 0 20px 0 rgba(var(--primary), 0.3);
-  transform: translateY(-2px);
+  box-shadow: 0 0 20px 0 rgba(124, 58, 237, 0.3);
 }
 
 /* Subtle page transitions */

@@ -16,6 +16,46 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Modera AI - Ethical Content Moderation for the Decentralized Web",
   description: "AI-powered moderation for text, images, and links on Web3. Built for ethical, censorship-resistant content moderation.",
+  icons: {
+    icon: [
+      {
+        url: "/favicon.svg",
+        type: "image/svg+xml",
+      },
+    ],
+    shortcut: ["/favicon.svg"],
+    apple: [
+      {
+        url: "/favicon.svg",
+        type: "image/svg+xml",
+      },
+    ],
+  },
+  manifest: "/site.webmanifest",
+  themeColor: "#7C3AED",
+  viewport: "width=device-width, initial-scale=1.0",
+  robots: "index, follow",
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: "https://modera.ai",
+    title: "Modera AI - Ethical Content Moderation for the Decentralized Web",
+    description: "AI-powered moderation for text, images, and links on Web3. Built for ethical, censorship-resistant content moderation.",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Modera AI",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Modera AI - Ethical Content Moderation for the Decentralized Web",
+    description: "AI-powered moderation for text, images, and links on Web3. Built for ethical, censorship-resistant content moderation.",
+    images: ["/og-image.png"],
+  },
 };
 
 export default function RootLayout({

@@ -1,0 +1,16 @@
+{
+  "name": "Modera AI",
+  "short_name": "Modera",
+  "description": "Ethical Content Moderation for the Decentralized Web",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#020817",
+  "theme_color": "#7C3AED",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "32x32",
+      "type": "image/svg+xml"
+    }
+  ]
+} 
