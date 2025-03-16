@@ -151,7 +151,6 @@
   transition: transform 0.3s ease-out;
 }
 
-.group:hover .hover-lift,
 .hover-lift:hover {
   transform: translateY(-4px);
 }
@@ -160,7 +159,6 @@
   transition: transform 0.3s ease-out;
 }
 
-.group:hover .hover-scale,
 .hover-scale:hover {
   transform: scale(1.03);
 }
@@ -169,7 +167,6 @@
   transition: box-shadow 0.3s ease-out;
 }
 
-.group:hover .hover-glow,
 .hover-glow:hover {
   box-shadow: 0 0 20px 0 rgba(124, 58, 237, 0.3);
 }
