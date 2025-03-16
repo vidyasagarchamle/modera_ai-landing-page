@@ -135,7 +135,7 @@ export function GetAccessSection() {
                 </div>
                 
                 {/* Right side - Application process */}
-                <div className="p-8 md:p-12 bg-primary/5">
+                <div className="p-8 md:p-12 bg-muted/80 dark:bg-primary/10">
                   <motion.div
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
@@ -152,36 +152,36 @@ export function GetAccessSection() {
                     transition={{ duration: 0.5, delay: 0.1 }}
                   >
                     <div className="space-y-8">
-                      <div className="relative pl-12 pb-8 border-l border-primary/30 last:border-0">
-                        <div className="absolute left-0 top-0 flex h-8 w-8 items-center justify-center rounded-full bg-primary text-primary-foreground text-sm font-medium">1</div>
-                        <div className="absolute left-0 top-8 bottom-0 w-0.5 bg-primary/30"></div>
-                        <div>
+                      <div className="relative pl-12 pb-8">
+                        <div className="absolute left-0 top-0 flex h-8 w-8 items-center justify-center rounded-full bg-primary text-primary-foreground text-sm font-medium shadow-md">1</div>
+                        <div className="absolute left-4 top-8 bottom-0 w-0.5 bg-primary/50"></div>
+                        <div className="bg-card/80 backdrop-blur-sm p-4 rounded-lg shadow-sm border border-primary/10">
                           <h4 className="text-lg font-medium">Submit Application</h4>
                           <p className="text-muted-foreground mt-2">Provide details about your website, including its IPFS hash, content type, and moderation needs.</p>
                         </div>
                       </div>
                       
-                      <div className="relative pl-12 pb-8 border-l border-primary/30 last:border-0">
-                        <div className="absolute left-0 top-0 flex h-8 w-8 items-center justify-center rounded-full bg-primary text-primary-foreground text-sm font-medium">2</div>
-                        <div className="absolute left-0 top-8 bottom-0 w-0.5 bg-primary/30"></div>
-                        <div>
+                      <div className="relative pl-12 pb-8">
+                        <div className="absolute left-0 top-0 flex h-8 w-8 items-center justify-center rounded-full bg-primary text-primary-foreground text-sm font-medium shadow-md">2</div>
+                        <div className="absolute left-4 top-8 bottom-0 w-0.5 bg-primary/50"></div>
+                        <div className="bg-card/80 backdrop-blur-sm p-4 rounded-lg shadow-sm border border-primary/10">
                           <h4 className="text-lg font-medium">Verification</h4>
                           <p className="text-muted-foreground mt-2">Our team reviews your project&apos;s legitimacy and use case to ensure alignment with our ethical guidelines.</p>
                         </div>
                       </div>
                       
-                      <div className="relative pl-12 pb-8 border-l border-primary/30 last:border-0">
-                        <div className="absolute left-0 top-0 flex h-8 w-8 items-center justify-center rounded-full bg-primary text-primary-foreground text-sm font-medium">3</div>
-                        <div className="absolute left-0 top-8 bottom-0 w-0.5 bg-primary/30"></div>
-                        <div>
+                      <div className="relative pl-12 pb-8">
+                        <div className="absolute left-0 top-0 flex h-8 w-8 items-center justify-center rounded-full bg-primary text-primary-foreground text-sm font-medium shadow-md">3</div>
+                        <div className="absolute left-4 top-8 bottom-0 w-0.5 bg-primary/50"></div>
+                        <div className="bg-card/80 backdrop-blur-sm p-4 rounded-lg shadow-sm border border-primary/10">
                           <h4 className="text-lg font-medium">API Provisioning</h4>
                           <p className="text-muted-foreground mt-2">Receive your unique API credentials, rate limits, and comprehensive documentation for integration.</p>
                         </div>
                       </div>
                       
                       <div className="relative pl-12">
-                        <div className="absolute left-0 top-0 flex h-8 w-8 items-center justify-center rounded-full bg-primary text-primary-foreground text-sm font-medium">4</div>
-                        <div>
+                        <div className="absolute left-0 top-0 flex h-8 w-8 items-center justify-center rounded-full bg-primary text-primary-foreground text-sm font-medium shadow-md">4</div>
+                        <div className="bg-card/80 backdrop-blur-sm p-4 rounded-lg shadow-sm border border-primary/10">
                           <h4 className="text-lg font-medium">Integration Support</h4>
                           <p className="text-muted-foreground mt-2">Our developer team provides assistance during implementation to ensure a smooth integration process.</p>
                         </div>
