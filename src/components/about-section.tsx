@@ -101,16 +101,18 @@ export function AboutSection() {
         >
           {features.map((feature, index) => (
             <motion.div key={index} variants={item}>
-              <Card className="group h-full border-primary/10 hover:border-primary/30 transition-all duration-300 overflow-hidden hover-lift hover-glow">
-                <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                <CardContent className="p-6 relative">
-                  <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-primary/10 group-hover:bg-primary/20 transition-colors duration-300">
-                    {feature.icon}
-                  </div>
-                  <h3 className="text-xl font-semibold mb-2">{feature.title}</h3>
-                  <p className="text-muted-foreground">{feature.description}</p>
-                </CardContent>
-              </Card>
+              <div className="group h-full">
+                <Card className="h-full border-primary/10 hover:border-primary/30 transition-all duration-300 overflow-hidden hover-lift hover-glow">
+                  <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                  <CardContent className="p-6 relative">
+                    <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-primary/10 group-hover:bg-primary/20 transition-colors duration-300">
+                      {feature.icon}
+                    </div>
+                    <h3 className="text-xl font-semibold mb-2">{feature.title}</h3>
+                    <p className="text-muted-foreground">{feature.description}</p>
+                  </CardContent>
+                </Card>
+              </div>
             </motion.div>
           ))}
         </motion.div>

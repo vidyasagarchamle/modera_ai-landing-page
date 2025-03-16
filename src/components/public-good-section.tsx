@@ -115,21 +115,23 @@ export function PublicGoodSection() {
                   viewport={{ once: true }}
                   transition={{ duration: 0.5, delay: index * 0.1 }}
                 >
-                  <Card className="h-full bg-background border-primary/20 overflow-hidden group hover:border-primary/40 transition-all duration-300 hover-lift hover-glow">
-                    <CardContent className="p-6">
-                      <div className="flex gap-4">
-                        <div className="flex-shrink-0">
-                          <div className="inline-flex items-center justify-center p-2 bg-primary/10 rounded-full group-hover:bg-primary/20 transition-all duration-300">
-                            {reason.icon}
+                  <div className="group h-full">
+                    <Card className="h-full bg-background border-primary/20 overflow-hidden hover:border-primary/40 transition-all duration-300 hover-lift hover-glow">
+                      <CardContent className="p-6">
+                        <div className="flex gap-4">
+                          <div className="flex-shrink-0">
+                            <div className="inline-flex items-center justify-center p-2 bg-primary/10 rounded-full group-hover:bg-primary/20 transition-all duration-300">
+                              {reason.icon}
+                            </div>
+                          </div>
+                          <div>
+                            <h3 className="text-xl font-semibold mb-2">{reason.title}</h3>
+                            <p className="text-muted-foreground">{reason.description}</p>
                           </div>
                         </div>
-                        <div>
-                          <h3 className="text-xl font-semibold mb-2">{reason.title}</h3>
-                          <p className="text-muted-foreground">{reason.description}</p>
-                        </div>
-                      </div>
-                    </CardContent>
-                  </Card>
+                      </CardContent>
+                    </Card>
+                  </div>
                 </motion.div>
               ))}
             </div>

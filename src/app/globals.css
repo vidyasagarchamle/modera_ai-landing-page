@@ -149,17 +149,21 @@
 /* Animation utilities */
 .hover-lift {
   transition: transform 0.3s ease-out;
+  will-change: transform;
 }
 
-.hover-lift:hover {
+.hover-lift:hover,
+.group:hover .hover-lift {
   transform: translateY(-4px);
 }
 
 .hover-scale {
   transition: transform 0.3s ease-out;
+  will-change: transform;
 }
 
-.hover-scale:hover {
+.hover-scale:hover,
+.group:hover .hover-scale {
   transform: scale(1.03);
 }
 
@@ -167,7 +171,8 @@
   transition: box-shadow 0.3s ease-out;
 }
 
-.hover-glow:hover {
+.hover-glow:hover,
+.group:hover .hover-glow {
   box-shadow: 0 0 20px 0 rgba(124, 58, 237, 0.3);
 }
 
