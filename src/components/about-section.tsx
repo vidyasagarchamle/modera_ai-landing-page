@@ -76,7 +76,7 @@ export function AboutSection() {
             transition={{ duration: 0.5 }}
           >
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl mb-4">
-              Empowering Decentralized <span className="text-primary">Websites</span> with AI Modlytion
+              Empowering Decentralized <span className="text-primary">Websites</span> with AI Moderation
             </h2>
           </motion.div>
           <motion.div

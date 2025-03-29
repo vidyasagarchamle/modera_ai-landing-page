@@ -1,7 +1,7 @@
 {
   "name": "Modly AI",
   "short_name": "Modly",
-  "description": "Ethical Content Modlytion for the Decentralized Web",
+  "description": "Ethical Content Moderation for the Decentralized Web",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#020817",

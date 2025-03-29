@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Modly AI - Ethical Content Modlytion for the Decentralized Web",
+  title: "Modly AI - Ethical Content Moderation for the Decentralized Web",
   description: "AI-powered moderation for text, images, and links on Web3. Built for ethical, censorship-resistant content moderation.",
   icons: {
     icon: [
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: "https://modly.ai",
-    title: "Modly AI - Ethical Content Modlytion for the Decentralized Web",
+    title: "Modly AI - Ethical Content Moderation for the Decentralized Web",
     description: "AI-powered moderation for text, images, and links on Web3. Built for ethical, censorship-resistant content moderation.",
     images: [
       {
@@ -52,7 +52,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Modly AI - Ethical Content Modlytion for the Decentralized Web",
+    title: "Modly AI - Ethical Content Moderation for the Decentralized Web",
     description: "AI-powered moderation for text, images, and links on Web3. Built for ethical, censorship-resistant content moderation.",
     images: ["/og-image.png"],
   },
