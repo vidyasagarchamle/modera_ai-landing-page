@@ -114,7 +114,7 @@ export function HeroSection() {
               </div>
               <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl leading-tight">
                 AI-Powered <span className="text-primary relative">
-                  Website Modlytion
+                  Website Moderation
                   <motion.span 
                     className="absolute -bottom-1 left-0 w-full h-1 bg-primary/30 rounded-full" 
                     initial={{ width: 0 }}
