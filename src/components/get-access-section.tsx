@@ -53,7 +53,7 @@ export function GetAccessSection() {
             className="text-center mb-12"
           >
             <h2 className="text-4xl font-bold tracking-tight mb-4">
-              Get Access to <span className="text-primary">Modera AI</span>
+              Get Access to <span className="text-primary">Modly AI</span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
               Secure, reliable content moderation for your IPFS websites
@@ -88,7 +88,7 @@ export function GetAccessSection() {
                     </div>
                     <h3 className="text-2xl font-bold mb-4">Request API Access</h3>
                     <p className="text-muted-foreground mb-6">
-                      We provide Modera AI as a <span className="font-semibold">public good</span>, but access is granted only to those who <span className="font-semibold">genuinely need it</span> to prevent misuse. 
+                      We provide Modly AI as a <span className="font-semibold">public good</span>, but access is granted only to those who <span className="font-semibold">genuinely need it</span> to prevent misuse. 
                       Apply below to request access for your IPFS website moderation needs.
                     </p>
                   </motion.div>

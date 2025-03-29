@@ -76,7 +76,7 @@ export function AboutSection() {
             transition={{ duration: 0.5 }}
           >
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl mb-4">
-              Empowering Decentralized <span className="text-primary">Websites</span> with AI Moderation
+              Empowering Decentralized <span className="text-primary">Websites</span> with AI Modlytion
             </h2>
           </motion.div>
           <motion.div
@@ -86,7 +86,7 @@ export function AboutSection() {
             transition={{ duration: 0.5, delay: 0.1 }}
           >
             <p className="text-lg text-muted-foreground">
-              Modera AI provides seamless content moderation for websites before they are stored permanently on IPFS, 
+              Modly AI provides seamless content moderation for websites before they are stored permanently on IPFS, 
               ensuring they remain safe and responsible.
             </p>
           </motion.div>

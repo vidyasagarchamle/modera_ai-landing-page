@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Modera AI - Ethical Content Moderation for the Decentralized Web",
+  title: "Modly AI - Ethical Content Modlytion for the Decentralized Web",
   description: "AI-powered moderation for text, images, and links on Web3. Built for ethical, censorship-resistant content moderation.",
   icons: {
     icon: [
@@ -38,21 +38,21 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://modera.ai",
-    title: "Modera AI - Ethical Content Moderation for the Decentralized Web",
+    url: "https://modly.ai",
+    title: "Modly AI - Ethical Content Modlytion for the Decentralized Web",
     description: "AI-powered moderation for text, images, and links on Web3. Built for ethical, censorship-resistant content moderation.",
     images: [
       {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Modera AI",
+        alt: "Modly AI",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Modera AI - Ethical Content Moderation for the Decentralized Web",
+    title: "Modly AI - Ethical Content Modlytion for the Decentralized Web",
     description: "AI-powered moderation for text, images, and links on Web3. Built for ethical, censorship-resistant content moderation.",
     images: ["/og-image.png"],
   },

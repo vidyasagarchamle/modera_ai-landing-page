@@ -72,7 +72,7 @@ export function HowItWorksSection() {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            How <span className="text-primary">Modera AI</span> Works
+            How <span className="text-primary">Modly AI</span> Works
           </motion.h2>
           <motion.p 
             className="text-lg text-muted-foreground"

@@ -73,7 +73,7 @@ export function PublicGoodSection() {
               transition={{ duration: 0.5 }}
             >
               <h2 className="text-3xl font-bold tracking-tight sm:text-4xl mb-4">
-                Modera AI as a <span className="text-primary">Public Good</span>
+                Modly AI as a <span className="text-primary">Public Good</span>
               </h2>
               <p className="text-lg text-muted-foreground">
                 We uphold Web3&apos;s decentralization principles while ensuring responsible content moderation.

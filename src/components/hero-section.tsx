@@ -114,7 +114,7 @@ export function HeroSection() {
               </div>
               <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl leading-tight">
                 AI-Powered <span className="text-primary relative">
-                  Website Moderation
+                  Website Modlytion
                   <motion.span 
                     className="absolute -bottom-1 left-0 w-full h-1 bg-primary/30 rounded-full" 
                     initial={{ width: 0 }}
@@ -127,7 +127,7 @@ export function HeroSection() {
             
             <motion.div variants={fadeInUp}>
               <p className="mt-6 text-lg text-muted-foreground">
-                Ensure ethical, safe, and privacy-preserving content moderation before publishing websites on IPFS. Modera AI scans text, images, and links to detect harmful content while maintaining decentralization and censorship resistance.
+                Ensure ethical, safe, and privacy-preserving content moderation before publishing websites on IPFS. Modly AI scans text, images, and links to detect harmful content while maintaining decentralization and censorship resistance.
               </p>
             </motion.div>
             

@@ -56,7 +56,7 @@ export function Logo({ className, variant = "default" }: LogoProps) {
       
       {variant === "default" && (
         <div className="ml-2 flex flex-col">
-          <span className="text-xl font-bold tracking-tight">Modera</span>
+          <span className="text-xl font-bold tracking-tight">Modly</span>
           <span className="text-xs font-medium text-muted-foreground -mt-1">AI</span>
         </div>
       )}
