@@ -1,12 +1,12 @@
 import Link from "next/link";
 import { Logo } from "@/components/logo";
-import { Twitter, Github, ExternalLink } from "lucide-react";
+import { Twitter, Github } from "lucide-react";
 
 export function Footer() {
   return (
     <footer className="border-t bg-background">
       <div className="container mx-auto py-12 md:py-16">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12">
           <div className="md:col-span-2 space-y-4">
             <Logo />
             <p className="text-sm text-muted-foreground max-w-md">
@@ -40,38 +40,6 @@ export function Footer() {
               <li>
                 <Link href="#public-good" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
                   Public Good
-                </Link>
-              </li>
-              <li>
-                <Link href="#get-access" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-                  Get Access
-                </Link>
-              </li>
-            </ul>
-          </div>
-          
-          <div className="space-y-4">
-            <h3 className="text-sm font-semibold">Legal & Company</h3>
-            <ul className="space-y-3">
-              <li>
-                <Link href="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors flex items-center gap-1 group">
-                  Terms of Service
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors flex items-center gap-1 group">
-                  Privacy Policy
-                </Link>
-              </li>
-              <li>
-                <Link 
-                  href="https://webhash.com" 
-                  target="_blank" 
-                  rel="noopener noreferrer" 
-                  className="text-sm text-muted-foreground hover:text-foreground transition-colors flex items-center gap-1 group"
-                >
-                  Webhash Official Site
-                  <ExternalLink className="h-3 w-3 opacity-70 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
                 </Link>
               </li>
             </ul>

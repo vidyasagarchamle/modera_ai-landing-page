@@ -6,7 +6,6 @@ import { HeroSection } from "@/components/hero-section";
 import { AboutSection } from "@/components/about-section";
 import { HowItWorksSection } from "@/components/how-it-works-section";
 import { PublicGoodSection } from "@/components/public-good-section";
-import { GetAccessSection } from "@/components/get-access-section";
 import { motion } from "framer-motion";
 
 export default function Home() {
@@ -23,7 +22,6 @@ export default function Home() {
         <AboutSection />
         <HowItWorksSection />
         <PublicGoodSection />
-        <GetAccessSection />
       </main>
       <Footer />
     </motion.div>

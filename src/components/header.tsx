@@ -45,15 +45,11 @@ export function Header() {
             Public Good
             <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full"></span>
           </Link>
-          <Link href="#get-access" className="text-sm font-medium transition-colors hover:text-primary relative group">
-            Get Access
-            <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full"></span>
-          </Link>
         </nav>
         <div className="flex items-center gap-4">
           <Button asChild variant="outline" size="sm" className="hidden md:flex hover-lift">
-            <Link href="#get-access">
-              Request API
+            <Link href="https://app.modly.xyz" target="_blank" rel="noopener noreferrer">
+              Get Started
             </Link>
           </Button>
           <ThemeToggle />
@@ -90,17 +86,10 @@ export function Header() {
                 >
                   Public Good
                 </Link>
-                <Link 
-                  href="#get-access" 
-                  className="text-base font-medium transition-colors hover:text-primary flex items-center"
-                  onClick={() => setIsOpen(false)}
-                >
-                  Get Access
-                </Link>
                 <div className="pt-4 mt-4 border-t">
                   <Button asChild className="w-full" size="sm">
-                    <Link href="#get-access" onClick={() => setIsOpen(false)}>
-                      Request API Access
+                    <Link href="https://app.modly.xyz" target="_blank" rel="noopener noreferrer" onClick={() => setIsOpen(false)}>
+                      Get Started
                     </Link>
                   </Button>
                 </div>

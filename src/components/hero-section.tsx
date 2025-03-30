@@ -136,8 +136,8 @@ export function HeroSection() {
               className="mt-8 flex flex-col sm:flex-row gap-4"
             >
               <Button asChild size="lg" className="font-medium group hover-lift hover-glow">
-                <Link href="#get-access" className="flex items-center gap-2">
-                  Request API Access
+                <Link href="https://app.modly.xyz" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
+                  Get Started
                   <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
                 </Link>
               </Button>
