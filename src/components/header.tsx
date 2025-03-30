@@ -100,7 +100,7 @@ export function Header() {
                 <div className="pt-4 mt-4 border-t">
                   <Button asChild className="w-full" size="sm">
                     <Link href="#get-access" onClick={() => setIsOpen(false)}>
-                      Get Started
+                      Request API Access
                     </Link>
                   </Button>
                 </div>

@@ -6,8 +6,8 @@ import { Card, CardContent } from "@/components/ui/card";
 import { ArrowRight, Clock, Shield, Users, FileText, LockKeyhole } from "lucide-react";
 
 export function GetAccessSection() {
-  // App redirect URL - replace with your actual app URL
-  const appRedirectUrl = "https://app.modly.ai";
+  // Actual Google Form URL
+  const googleFormUrl = "https://docs.google.com/forms/d/e/1FAIpQLScitKjtOU0CaABLw_7U7X49f5H9nDVizXrY5LjOzBWx3E0Uow/viewform?usp=sharing";
 
   const benefits = [
     {
@@ -49,7 +49,7 @@ export function GetAccessSection() {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            transition={{ duration: 0.5 }} className="text-center max-w-2xl mx-auto"
+            transition={{ duration: 0.5 }}
             className="text-center mb-12"
           >
             <h2 className="text-4xl font-bold tracking-tight mb-4">
@@ -62,9 +62,9 @@ export function GetAccessSection() {
 
           <Card className="overflow-hidden border-primary/20 shadow-xl bg-card/50 backdrop-blur-sm">
             <CardContent className="p-0">
-              <div className="grid grid-cols-1 gap-0">
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-0">
                 {/* Left side - Application info */}
-                <div className="p-8 md:p-12 border-primary/10 relative">
+                <div className="p-8 md:p-12 border-b lg:border-b-0 lg:border-r border-primary/10 relative">
                   <div className="absolute top-0 right-0 w-full h-full opacity-10 pointer-events-none">
                     <svg width="100%" height="100%" viewBox="0 0 100 100" preserveAspectRatio="none">
                       <defs>
@@ -81,7 +81,7 @@ export function GetAccessSection() {
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
-                    transition={{ duration: 0.5 }} className="text-center max-w-2xl mx-auto"
+                    transition={{ duration: 0.5 }}
                   >
                     <div className="inline-flex items-center justify-center p-2 bg-primary/10 rounded-full mb-6">
                       <LockKeyhole className="h-6 w-6 text-primary" />
@@ -89,7 +89,7 @@ export function GetAccessSection() {
                     <h3 className="text-2xl font-bold mb-4">Request API Access</h3>
                     <p className="text-muted-foreground mb-6">
                       We provide Modly AI as a <span className="font-semibold">public good</span>, but access is granted only to those who <span className="font-semibold">genuinely need it</span> to prevent misuse. 
-                      
+                      Apply below to request access for your IPFS website moderation needs.
                     </p>
                   </motion.div>
                   
@@ -100,9 +100,9 @@ export function GetAccessSection() {
                     transition={{ duration: 0.5, delay: 0.2 }}
                     className="space-y-4"
                   >
-                    <Button asChild size="lg" className="gap-2 group hover-lift hover-glow mx-auto">
-                      <a href={appRedirectUrl} target="_blank" rel="noopener noreferrer" className="flex items-center">
-                        Get Started
+                    <Button asChild size="lg" className="gap-2 group hover-lift hover-glow">
+                      <a href={googleFormUrl} target="_blank" rel="noopener noreferrer" className="flex items-center">
+                        Apply for API Access
                         <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
                       </a>
                     </Button>
@@ -118,7 +118,7 @@ export function GetAccessSection() {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ duration: 0.5, delay: 0.3 }}
-                    className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-6"
+                    className="mt-12 grid grid-cols-1 gap-6"
                   >
                     {benefits.map((benefit, index) => (
                       <div key={index} className="flex items-start gap-4 group">
@@ -134,6 +134,61 @@ export function GetAccessSection() {
                   </motion.div>
                 </div>
                 
+                {/* Right side - Application process */}
+                <div className="p-8 md:p-12 bg-muted/80 dark:bg-primary/10">
+                  <motion.div
+                    initial={{ opacity: 0, y: 20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ duration: 0.5 }}
+                  >
+                    <h3 className="text-2xl font-bold mb-8">Application Process</h3>
+                  </motion.div>
+                  
+                  <motion.div
+                    initial={{ opacity: 0, y: 20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ duration: 0.5, delay: 0.1 }}
+                  >
+                    <div className="space-y-8">
+                      <div className="relative pl-12 pb-8">
+                        <div className="absolute left-0 top-0 flex h-8 w-8 items-center justify-center rounded-full bg-primary text-primary-foreground text-sm font-medium shadow-md">1</div>
+                        <div className="absolute left-4 top-8 bottom-0 w-0.5 bg-primary/50"></div>
+                        <div className="bg-card/80 backdrop-blur-sm p-4 rounded-lg shadow-sm border border-primary/10">
+                          <h4 className="text-lg font-medium">Submit Application</h4>
+                          <p className="text-muted-foreground mt-2">Provide details about your website, including its IPFS hash, content type, and moderation needs.</p>
+                        </div>
+                      </div>
+                      
+                      <div className="relative pl-12 pb-8">
+                        <div className="absolute left-0 top-0 flex h-8 w-8 items-center justify-center rounded-full bg-primary text-primary-foreground text-sm font-medium shadow-md">2</div>
+                        <div className="absolute left-4 top-8 bottom-0 w-0.5 bg-primary/50"></div>
+                        <div className="bg-card/80 backdrop-blur-sm p-4 rounded-lg shadow-sm border border-primary/10">
+                          <h4 className="text-lg font-medium">Verification</h4>
+                          <p className="text-muted-foreground mt-2">Our team reviews your project&apos;s legitimacy and use case to ensure alignment with our ethical guidelines.</p>
+                        </div>
+                      </div>
+                      
+                      <div className="relative pl-12 pb-8">
+                        <div className="absolute left-0 top-0 flex h-8 w-8 items-center justify-center rounded-full bg-primary text-primary-foreground text-sm font-medium shadow-md">3</div>
+                        <div className="absolute left-4 top-8 bottom-0 w-0.5 bg-primary/50"></div>
+                        <div className="bg-card/80 backdrop-blur-sm p-4 rounded-lg shadow-sm border border-primary/10">
+                          <h4 className="text-lg font-medium">API Provisioning</h4>
+                          <p className="text-muted-foreground mt-2">Receive your unique API credentials, rate limits, and comprehensive documentation for integration.</p>
+                        </div>
+                      </div>
+                      
+                      <div className="relative pl-12">
+                        <div className="absolute left-0 top-0 flex h-8 w-8 items-center justify-center rounded-full bg-primary text-primary-foreground text-sm font-medium shadow-md">4</div>
+                        <div className="bg-card/80 backdrop-blur-sm p-4 rounded-lg shadow-sm border border-primary/10">
+                          <h4 className="text-lg font-medium">Integration Support</h4>
+                          <p className="text-muted-foreground mt-2">Our developer team provides assistance during implementation to ensure a smooth integration process.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </motion.div>
+                </div>
               </div>
             </CardContent>
           </Card>
