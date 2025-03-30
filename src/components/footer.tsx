@@ -6,7 +6,7 @@ export function Footer() {
   return (
     <footer className="border-t bg-background">
       <div className="container mx-auto py-12 md:py-16">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12">
           <div className="md:col-span-2 space-y-4">
             <Logo />
             <p className="text-sm text-muted-foreground max-w-md">
@@ -51,31 +51,6 @@ export function Footer() {
           </div>
           
           <div className="space-y-4">
-            <h3 className="text-sm font-semibold">Legal & Company</h3>
-            <ul className="space-y-3">
-              <li>
-                <Link href="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors flex items-center gap-1 group">
-                  Terms of Service
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors flex items-center gap-1 group">
-                  Privacy Policy
-                </Link>
-              </li>
-              <li>
-                <Link 
-                  href="https://webhash.com" 
-                  target="_blank" 
-                  rel="noopener noreferrer" 
-                  className="text-sm text-muted-foreground hover:text-foreground transition-colors flex items-center gap-1 group"
-                >
-                  Webhash Official Site
-                  <ExternalLink className="h-3 w-3 opacity-70 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
-                </Link>
-              </li>
-            </ul>
-          </div>
         </div>
         
         <div className="mt-12 pt-8 border-t flex flex-col md:flex-row justify-between items-center gap-4">
